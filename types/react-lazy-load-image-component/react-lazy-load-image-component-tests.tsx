@@ -31,7 +31,7 @@ const ImageWithCallbacks = () => (
     delayTime={500}
     threshold={200}
     beforeLoad={() => {}}
-    afterLoad={() => {}}
+    onLoad={() => {}}
     placeholder={<span/>}
     wrapperProps={{
         style: {
